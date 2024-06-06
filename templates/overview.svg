@@ -1,9 +1,9 @@
-<svg id="gh-dark-mode-only" width="360" height="210" xmlns="http://www.w3.org/2000/svg">
+<svg id="gh-dark-mode-only" width="720" height="420" xmlns="http://www.w3.org/2000/svg">
 <style>
 svg {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 28px;
+  line-height: 42px;
 }
 
 #background {
@@ -11,19 +11,19 @@ svg {
   height: calc(100% - 10px);
   fill: white;
   stroke: rgb(225, 228, 232);
-  stroke-width: 1px;
-  rx: 6px;
-  ry: 6px;
+  stroke-width: 2px;
+  rx: 12px;
+  ry: 12px;
 }
 
 #gh-dark-mode-only:target #background {
   fill: #0d1117;
-  stroke-width: 0.5px;
+  stroke-width: 1px;
 }
 
 foreignObject {
-  width: calc(100% - 10px - 32px);
-  height: calc(100% - 10px - 32px);
+  width: calc(100% - 10px - 64px);
+  height: calc(100% - 10px - 48px);
 }
 
 table {
@@ -36,7 +36,7 @@ th {
   padding: 0.5em;
   padding-top: 0;
   text-align: left;
-  font-size: 14px;
+  font-size: 28px;
   font-weight: 600;
   color: rgb(3, 102, 214);
 }
@@ -46,11 +46,11 @@ th {
 }
 
 td {
-  margin-bottom: 16px;
-  margin-top: 8px;
-  padding: 0.25em;
-  font-size: 12px;
-  line-height: 18px;
+  margin-bottom: 32px;
+  margin-top: 12px;
+  padding: 0.5em;
+  font-size: 24px;
+  line-height: 24px;
   color: rgb(88, 96, 105);
 }
 
@@ -82,7 +82,7 @@ tr {
 <g>
 <rect x="5" y="5" id="background" />
 <g>
-<foreignObject x="21" y="21" width="318" height="168">
+<foreignObject x="36" y="32" width="318" height="168">
 <div xmlns="http://www.w3.org/1999/xhtml">
 
 <table>
